@@ -1,6 +1,7 @@
 # Doge
 ## An open source programming language
 ---------------------
+<img src="https://media.discordapp.net/attachments/867313035530207245/867423735560798258/Untitled103_20210721204138.png?width=400&height=400">
 -----------------------------
 <br>
 
