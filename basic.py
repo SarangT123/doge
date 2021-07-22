@@ -136,7 +136,7 @@ KEYWORDS = [
   'doge_stepin',
   'doge_keepdoing',
   'doge_stop',
-   'then',
+  'then',
   'doge_stopit',
   'doge_bark',
   'doge_keepdoingit',
@@ -2160,24 +2160,24 @@ class Interpreter:
 #######################################
 
 global_symbol_table = SymbolTable()
-global_symbol_table.set("NULL", Number.null)
-global_symbol_table.set("FALSE", Number.false)
-global_symbol_table.set("TRUE", Number.true)
+global_symbol_table.set("nothing", Number.null)
+global_symbol_table.set("no", Number.false)
+global_symbol_table.set("yes", Number.true)
 global_symbol_table.set("MATH_PI", Number.math_PI)
 global_symbol_table.set("doge_say", BuiltInFunction.print)
-global_symbol_table.set("PRINT_RET", BuiltInFunction.print_ret)
-global_symbol_table.set("INPUT", BuiltInFunction.input)
-global_symbol_table.set("INPUT_INT", BuiltInFunction.input_int)
-global_symbol_table.set("CLEAR", BuiltInFunction.clear)
-global_symbol_table.set("CLS", BuiltInFunction.clear)
-global_symbol_table.set("IS_NUM", BuiltInFunction.is_number)
-global_symbol_table.set("IS_STR", BuiltInFunction.is_string)
-global_symbol_table.set("IS_LIST", BuiltInFunction.is_list)
-global_symbol_table.set("IS_FUN", BuiltInFunction.is_function)
-global_symbol_table.set("APPEND", BuiltInFunction.append)
-global_symbol_table.set("POP", BuiltInFunction.pop)
-global_symbol_table.set("EXTEND", BuiltInFunction.extend)
-global_symbol_table.set("LEN", BuiltInFunction.len)
+global_symbol_table.set("doge_say_ret", BuiltInFunction.print_ret)
+global_symbol_table.set("doge_ask", BuiltInFunction.input)
+global_symbol_table.set("doge_ask_int", BuiltInFunction.input_int)
+global_symbol_table.set("doge_clear", BuiltInFunction.clear)
+global_symbol_table.set("doge_cls", BuiltInFunction.clear)
+global_symbol_table.set("doge_is_number", BuiltInFunction.is_number)
+global_symbol_table.set("doge_is_string", BuiltInFunction.is_string)
+global_symbol_table.set("doge_is_list", BuiltInFunction.is_list)
+global_symbol_table.set("doge_is_teach", BuiltInFunction.is_function)
+global_symbol_table.set("doge_append", BuiltInFunction.append)
+global_symbol_table.set("doge_pop", BuiltInFunction.pop)
+global_symbol_table.set("doge_extend", BuiltInFunction.extend)
+global_symbol_table.set("doge_len", BuiltInFunction.len)
 global_symbol_table.set("RUN", BuiltInFunction.run)
 
 def run(fn, text):

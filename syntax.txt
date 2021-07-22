@@ -1,0 +1,26 @@
+  'VAR', == 'doge_remember',
+  'AND', =   'doge_aswellas',
+  'OR', =   'doge_or',
+  'NOT', =   'doge_nope',
+  'IF', =   'doge_whatif',
+  'ELIF', =   'doge_orif',
+  'ELSE', =   'doge_ifthatdoesnothappen',
+  'FOR', =   'doge_loopfor',
+  'TO', =   'doge_to',
+  'STEP', =   'doge_StepIn',
+  'WHILE', =   'doge_keepondoing',
+  'FUN', =   'doge_teach',
+  'THEN', =   'then',
+  'END', =   'doge_stopit',
+  'RETURN', =   'doge_bark',
+  'CONTINUE', =   'doge_keepondoingit',
+  'BREAK', =   'doge_stop',
+
+Changes 
+
+  'INPUT' = 'doge_ask',
+  'TRUE' = 'yes',
+  'FALSE' = 'NO',
+  'NULL' = 'NOTHING',
+  'INPUT_INT' = 'doge_ask_int',
+  'IS_FUN' = 'doge_isteach'
