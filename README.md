@@ -20,7 +20,7 @@ git clone https://github.com/SarangT123/doge-install
 ```
 alias doge='python3 /<yourlocation>/shell.py'
 ```
-<<<<<<< HEAD
+
 This will install the packages required to the folder 
 If you see a folder named doge-install You have completed this step successfully
 
@@ -64,13 +64,3 @@ RUN("YourFileName.doge")
 <br>
 
 # Happy hacking ...
-=======
-
-### this command will add doge as the shell now if u do `doge` in the terminal you will be able to access your doge shell 
-
-
-# Happy hacking ...
-
-
-
->>>>>>> 2c510ee3ed93d56b29d1a32da0068b96d110f5ff
