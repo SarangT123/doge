@@ -1,2 +1,3 @@
-doge_say("hello dud")
-doge_say("Hello bro")
+doge_loopfor i = 0 doge_to 100 then
+	doge_say(i)
+doge_stopit
