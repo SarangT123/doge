@@ -1,26 +1,26 @@
-# Doge
-## An open source programming language
----------------------
------------------------------
-<br>
+# doge-install
 
-## What is doge?
-------------------------
- ### Doge is an open source programming language created by 3 dudes on discord ;)
+## how to install and setup doge
 
- ---
- ---
+-----
 
-<br>
-
-## How to install ?
----
-### To install and use doge follow the steps given below
-
-#### Open the folder you want to use in cmd or terminal and enter the following command 
-```
+### Open your terminal/cmd on the folder you want to install doge.
+### Enter the following commands
+```bash
 git clone https://github.com/SarangT123/doge-install
 ```
+### This command will install and unpack doge in the folder and this will have all the neccessery files 
+
+----
+
+### The following commands can be used in linux os to add this into your path 
+
+#### Copy your folder address for 'doge-install'
+
+```
+alias doge='python3 /<yourlocation>/shell.py'
+```
+<<<<<<< HEAD
 This will install the packages required to the folder 
 If you see a folder named doge-install You have completed this step successfully
 
@@ -64,3 +64,13 @@ RUN("YourFileName.doge")
 <br>
 
 # Happy hacking ...
+=======
+
+### this command will add doge as the shell now if u do `doge` in the terminal you will be able to access your doge shell 
+
+
+# Happy hacking ...
+
+
+
+>>>>>>> 2c510ee3ed93d56b29d1a32da0068b96d110f5ff

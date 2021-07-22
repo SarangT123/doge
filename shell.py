@@ -1,7 +1,7 @@
 import basic
 
 while True:
-	text = input('Doge shellRUN("examplecode.doge") > ')
+	text = input('Doge shell 0.1 (Beta) > ')
 	if text.strip() == "": continue
 	result, error = basic.run('<stdin>', text)
 
