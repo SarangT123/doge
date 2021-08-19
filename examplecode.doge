@@ -1,8 +1,1 @@
-doge_loopfor i = 0 doge_to 100 then
-<<<<<<< HEAD
-	doge_say(i)
-doge_stopit
-=======
-    doge_say(i)
-doge_stopit
->>>>>>> 2c510ee3ed93d56b29d1a32da0068b96d110f5ff
+doge_say("hello bois")
